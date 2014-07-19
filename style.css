@@ -63,7 +63,27 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 .request button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
 #r2 h2{font-size:40px !important;}
 
-#reviews{position:relative;height:720px}
+
+
+#product1{background:url(img/fon2.jpg)no-repeat center;height:859px;}
+#product1 h2{position:absolute;top:-10px;left:100px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#product1 h2 span{color:#f8bb24}
+#product1 div{float:right;width:410px;height:734px;background:white;margin-top:60px}
+#product1 div ol{list-style:none;padding:120px 0px 30px 10px;font:16px "Trebuchet MS"}
+#product1 div ol li{padding:5px 0}
+#product1 div ol li strong{font-weight:bold}
+#product1 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
+ 
+#product2{background:url(img/fon3.jpg)no-repeat center;height:859px;}
+#product2 h2{position:absolute;top:-10px;left:100px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#product2 h2 span{color:#f8bb24}
+#product2 div{float:left;width:410px;height:734px;background:white;margin-top:60px}
+#product2 div ol{list-style:none;padding:100px 0px 10px 30px;font:16px "Trebuchet MS"}
+#product2 div ol li{padding:5px 0}
+#product2 div ol li strong{font-weight:bold}
+#product2 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
+
+#reviews{position:relative;height:943px}
 #reviews .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:0;right:50%;background:#f5f0ed}
 #reviews .right{float:none;display:block;position:absolute;top:0;bottom:0;right:0;left:50%;background:#00b3cb}
 #reviews article div{position:absolute;width:400px;top:80px;bottom:80px;text-align:center}
@@ -72,25 +92,6 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #reviews article div img{display:block;margin:0 auto 40px}
 #reviews .left   div{right:40px}
 #reviews .right div{left:40px}
-
-#a1{background:url(img/fon5.jpg)no-repeat center;height:859px;}
-#a1 h2{position:absolute;top:-10px;left:223px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
-#a1 div{float:right;width:410px;height:734px;background:white;margin-top:60px}
-#a1 div ol{list-style:none;padding:100px 0px 40px 30px;font:bold 18px "Trebuchet MS"}
-#a1 div ol li{padding:8px 0}
-#a1 div h3{font:26px "Trebuchet MS";background:#f8bb24;display:inline-block;padding:5px 10px;margin-left:30px;margin-bottom:5px;}
-#a1 div p{font:16px "Trebuchet MS";padding:10px 0 10px 30px}
-#a1 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
- 
-#a2{background:url(img/fon6.jpg)no-repeat center;height:859px;}
-#a2 h2{position:absolute;top:-10px;left:185px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
-#a2 div{float:left;width:410px;height:734px;background:white;margin-top:60px}
-#a2 div ol{list-style:none;padding:100px 0px 35px 30px;font:bold 18px "Trebuchet MS"}
-#a2 div ol li{padding:8px 0}
-#a2 div h3{font:26px "Trebuchet MS";background:#f8bb24;display:inline-block;padding:5px 10px;margin-left:30px;margin-bottom:5px;}
-#a2 div p{font:16px "Trebuchet MS";padding:10px 0 9px 30px}
-#a2 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
-
 #map{background:url('img/map.jpg') center top no-repeat;height:513px;}
 
 footer{color:white;background:url('img/fon7.jpg') center top no-repeat;height:331px;margin-bottom:48px}
