@@ -99,6 +99,13 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #reviews button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:bold 20px "Trebuchet MS";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
 #reviews button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
 
+#steps1{height:300px;background:white url(img/step1.png)no-repeat center 170px;}
+#steps1 h2{font:50px "Kelson Sans RU Regular";text-align:center;text-transform:uppercase;padding-top:65px;color:#f6662f}
+#steps2{height:350px;background:#f8f8f8 url(img/step2.png)no-repeat 148px 45px;}
+#steps2 div.center{position:absolute;top:245px;left:0;right:0;text-align:center;}
+#steps2 button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:bold 20px "Trebuchet MS";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
+#steps2 button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
+
 #license{background:url(img/fon6.jpg) no-repeat center top;height:940px}
 #license h2{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#ffffff;padding-top:115px;margin-bottom:40px;}
 #license h3{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#ffffff;padding:1px;margin:130px 0 45px 200px;}
