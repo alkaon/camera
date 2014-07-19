@@ -56,17 +56,17 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 
 #r1{}
 #r2{}
-.request{background-color:#f6662f;color:white;padding:60px 0;}
+.request{background-color:#f6662f;color:white;padding:60px 0 40px;}
 .request main{text-align:center;}
-.request h2{font:50px 'Kelson Sans Ru','Trebuchet MS';text-transform:uppercase;margin-bottom:60px;}
-.request p{font:29px/29px 'Kelson Sans Ru','Trebuchet MS';text-transform:uppercase;margin-bottom:40px;}
+.request h2{font:50px 'Kelson Sans Ru','Trebuchet MS';text-transform:uppercase;margin-bottom:6px;}
+.request h3{font:40px 'Kelson Sans Ru','Trebuchet MS';text-transform:uppercase;margin-bottom:4px;}
+.request span{font:20px/22px 'Kelson Sans Ru','Trebuchet MS';text-transform:uppercase;}
+.request p{font:29px/29px 'Kelson Sans Ru','Trebuchet MS';text-transform:uppercase;margin:50px auto 40px;}
 .request form{}
 .request input{display:inline-block;width:282px;height:25px;padding:5px;color:#9fa4b0;font:16px "Trebuchet MS";outline:none;border:none;margin:0 15px 25px 15px}
 .request button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:bold 20px "Trebuchet MS";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
 .request button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
 #r2 h2{font-size:40px !important;}
-
-
 
 #product1{background:url(img/fon2.jpg)no-repeat center;height:859px;}
 #product1 h2{position:absolute;top:-10px;left:100px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
@@ -102,6 +102,11 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #license{background:url(img/fon6.jpg) no-repeat center top;height:940px}
 #license h2{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#ffffff;padding-top:115px;margin-bottom:40px;}
 #license h3{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#ffffff;padding:1px;margin:130px 0 45px 200px;}
+#license h2.black{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#f8bb24;padding-top:115px;margin-bottom:40px;}
+#license h2.black span{background:#2d2d2d;color:#ffffff}
+#license h3.black{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#f8bb24;padding:1px;margin:130px 0 45px 200px;}
+#license h3.black span{background:#2d2d2d;padding:0 10px;color:#ffffff}
+
 #sertificates{padding-bottom:25px;text-align:center}
 #sertificates figure{width:216px;padding:0 10px;display:inline-block;cursor:pointer}
 #sertificates figure figcaption{background:#f8bb24;height:35px;text-transform:uppercase;text-align:center;font:14px "Elektra Light Pro",Tahoma,'Kelson Sans Ru',"Georgia";margin-bottom:6px}
@@ -118,11 +123,14 @@ footer h3{padding-top:15px;}
 footer h4{padding-top:27px;}
 footer span{color:#fdd81e}
 
-#splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none;z-index:20;}
-#splash section{background-color:#f6662f;color:white;position:absolute;left:0;right:0;top:25%}
+#splash,#bigIMG{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none;z-index:20;}
+#splash section{background-color:#f6662f;color:white;position:absolute;left:0;right:0;top:15%}
 #splash main{text-align:center}
 #splash p{color:white;text-align:center}
 #splash form{margin:0 auto 0}
+#bigIMG{background:rgba(0,0,0,.8) center center no-repeat;background-size:contain}
+#bigIMG #close{position:absolute;top:0;right:0;bottom:0;background:rgba(0,0,0,.3);color:white;cursor:pointer;text-align:right;padding:4% 3%}
+#bigIMG #close:hover{background:rgba(0,0,0,.5);}
 
 #copyright{background:#333;padding:10px 0;text-align:center;font-size:12px;color:gray;font-family:Calibri;transition:0.5s all;cursor:pointer;position:fixed;bottom:0;left:0;right:0;z-index:-1}
 #copyright a{color:green;text-decoration:none;transition:0.5s all}
