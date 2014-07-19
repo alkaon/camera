@@ -149,8 +149,8 @@
     }
    })(i)
   }
-  //$('#close').onclick = function(){
-  // $('#bigIMG').style.display = 'none';
-  //}
+  $('#close').onclick = function(){
+   $('#bigIMG').style.display = 'none';
+  }
  }
 })(window, document);
