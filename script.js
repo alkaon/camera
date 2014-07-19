@@ -100,6 +100,9 @@
  }
  
  window.onload = function(e){
+  var copy = $('#copyright');
+  copy.onclick = function(){ $('#copyright a').click() }
+ 
   var forms = document.querySelectorAll('form button,form img');
   for(var i = 0; i < forms.length; ++i){
    forms[i].onclick = submit;

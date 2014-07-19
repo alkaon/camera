@@ -15,7 +15,7 @@
  $present = getStr('present');
  $color = getStr('color');
 
- $site = "Банный клуб Максимус";
+ $site = "Системы видеонаблюдения";
  $subject = "Заявка с сайта " . $site;
  
  $mes = "Имя: ".$name." \nТелефон: ". $phone;
