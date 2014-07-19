@@ -31,8 +31,17 @@ header form h3{font-family:"Trebuchet MS";font-size:15px;font-weight:normal;padd
 header input{display:block;width:270px;color:black;padding:10px 15px;font:16px 'Trebuchet MS';margin-bottom:5px;outline:none;border:none;margin-bottom:15px;}
 header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet MS";text-transform:uppercase;background:#2d2d2d;border:none;outline:none;cursor:pointer;}
 
-#reasons{background:white;height:740px}
-#reasons h2{background:url(img/7.jpg)no-repeat top left;color:#2d2d2d;margin-left:100px;margin-top:50px;padding-top:95px; padding-left:195px;height:287px;font:30px "Uni Sans Thin","Segoe UI Light";text-transform:uppercase;}
+#security{height:625px;background:url(img/fon1.jpg) center top no-repeat}
+#security h2{font-family:"Uni Sans Thin","Segoe UI Light";font-size:40px;font-weight:normal;padding-top:80px;text-align:center;color:white;text-transform:uppercase}
+#security main{background:url(img/fon1nums.png) center center no-repeat;height:625px}
+#security form{margin-top:260px;display:block;text-align:center}
+#security form input{display:inline-block;width:200px;height:28px;padding:5px;color:white;font:16px "Trebuchet MS";outline:none;border:1px solid #888;margin:0 15px 25px 0;background:rgba(0,0,0,0.3)}
+#security form button{display:inline-block;position:relative;width:220px;height:41px;border:1px solid #888;color:white;cursor:pointer;font:bold 16px "Trebuchet MS";text-transform:uppercase;background:rgba(0,0,0,0.4);outline:none;cursor:pointer}
+#security form button:hover{background:rgba(0,0,0,0.7)}
+
+#reasons{background:white}
+#reasons main{padding:50px 0}
+#reasons h2{background:url(img/7.jpg)no-repeat top left;color:#2d2d2d;margin-left:100px;padding-top:95px; padding-left:195px;height:287px;font:30px "Uni Sans Thin","Segoe UI Light";text-transform:uppercase;}
 #reasons h2 span {font-size:50px}
 #reasons h2 strong {font:bold 35px "Uni Sans Heavy","Segoe UI";}
 #reasons ol {list-style:none;font:17px "Segoe UI Light";margin-left:130px}
@@ -85,6 +94,11 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #product2 div ol li{padding:5px 0}
 #product2 div ol li strong{font-weight:bold}
 #product2 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
+
+#company{position:relative;height:646px;background:white}
+#company .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:0;right:50%;background:url(img/fon4.jpg) right center no-repeat}
+#company .right{float:none;display:block;position:absolute;top:0;bottom:0;right:0;left:50%;background:white}
+
 
 #reviews{position:relative;height:1000px}
 #reviews .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:0;right:50%;background:#f5f0ed}
