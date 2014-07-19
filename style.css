@@ -97,6 +97,11 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #company{position:relative;height:646px;background:white}
 #company .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:0;right:50%;background:url(img/fon4.jpg) right center no-repeat}
 #company .right{float:none;display:block;position:absolute;top:0;bottom:0;right:0;left:50%;background:white}
+#company .right h2{font:bold 45px "Kelson Sans RU Regular";text-transform:uppercase;color:#2d2d2d;padding-left:40px;padding-top:60px}
+#company .right h3{font:25px "Kelson Sans RU Regular";text-transform:uppercase;color:#2d2d2d;padding-left:40px}
+#company .right h3 span{color:#f8bb24}
+#company .right ol{list-style:none;font:16px "Trebuchet MS";color:#2d2d2d;padding-left:20px;padding-top:35px}
+#company .right ol li{padding-bottom:15px}
 
 
 #reviews{position:relative;height:1000px}
