@@ -38,12 +38,11 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #reasons ol {list-style:none;font:17px "Segoe UI Light";margin-left:130px}
 #reasons ol li{width:330px;padding-left:10px;position:relative;display:inline-block;margin-bottom:30px;margin-right:60px;counter-increment:list;}
 #reasons ol li:before{content:"0"counter(list);position:absolute;left:-25px;font:bold 25px "Trebuchet MS";color:#2d2d2d;}
-#why{background:url(img/fon3.jpg) no-repeat center;height:681px}
-#why h2{font:37px "Kelson Sans RU Regular";text-transform:uppercase;text-align:center;color:white;padding-top:85px}
-#why ol{list-style:none;margin-top:45px;}
-#why ol li{width:400px;position:relative;display:inline-block;margin:12px 35px;font:16px "Trebuchet MS";color:white;}
-#why ol li strong{color:#f7bb23;font:55px "Verdana";}
-#why ol li span{color:#f7bb23;}
+
+#why{background:url(img/fon5.jpg) no-repeat center;height:779px}
+#why h2{font:bold 55px "Kelson Sans RU Regular";text-transform:uppercase;padding:115px 0 70px 20px;}
+#why img{padding-left:50px}
+
 
 #ideal{height:719px;background:url(img/fon4.jpg) center top no-repeat}
 #ideal h2{font:normal 40px "Trebuchet MS";text-transform:uppercase;padding-top:80px;padding-left:40px;margin-bottom:24px}
