@@ -11,27 +11,22 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .show{display:block}
 .button{cursor:pointer}
 
-.black{background:black}
+.black{background:#2d2d2d;padding:4px 6px}
 .orange{color:#f8bb24}
 
 section{clear:both}
 main{margin:0 auto;width:960px;position:relative}
 
 header{background:url('img/fon.jpg') center top no-repeat;color:white;height:889px;}
-header main{text-align:right;}
-header main.left{float:none;text-align:left;}
-header h2{font:bold 28px "Trebuchet MS";background-color:#2d2d2d;position:relative;width:auto;margin: 0 10px 0 0;padding: 0 10px;float:right;clear:both;}
-header h2.tel{font:25px "Trebuchet MS";position:relative;float:right;clear:both;}
-header button.button{position:relative;margin: 10px 10px 20px 0;width:180px;height:50px;float:right;clear:both;background-color:#fbd63a;border:none;outline:none;cursor:pointer;font:14px "Trebuchet MS";text-transform:uppercase;}
-header h1{font:bold 70px "Trebuchet MS";background-color:#2d2d2d;position:relative;margin: 0 10px 0 0;float:right;clear:both;z-index:10;padding: 0 10px;}
-header h3{font:60px "Trebuchet MS";background-color:#2d2d2d;position:relative;margin: -10px 10px 0 0;float:right;clear:both;}
-header p{font:bold 30px "Trebuchet MS";clear:both;background-color:#2d2d2d;float:left;clear:both;padding: 0 10px;position:relative}
-header p.line1{margin: 150px 0 0 50px;z-index:15}
-header p.line2{margin: -5px 0 0 50px;z-index:12}
-header p.line3{margin: -5px 0 0 50px;z-index:10}
-header p span{color:#fbd63a}
-header form{display:inline-block;margin: 30px 0 0 50px;float:left;clear:both;}
-header input{display:block;width:270px;height:10px;padding:15px;color:#9fa4b0;font:16px 'Trebuchet MS';margin-bottom:5px;outline:none;border:none;margin-bottom:15px;}
+#top{font-family:"Uni Sans Thin";font-size:20px;font-weight:normal;text-transform:uppercase;padding:35px 40px}
+header h1{font:bold 46px "Trebuchet MS";text-transform:uppercase;padding-left:40px}
+header main > p{font:22px/30px "Uni Sans Thin";padding:3px 0 0 40px;text-transform:uppercase}
+header main > p:nth-child(4) span{padding-right:28px}
+header form{display:inline-block;margin: 30px 0 0 40px}
+header form div{margin-bottom:30px}
+header form h2{text-transform:uppercase;font-family:"Trebuchet MS";font-size:30px;font-weight:bold;padding:4px 0 0 6px}
+header form h3{font-family:"Trebuchet MS";font-size:15px;font-weight:normal;padding:0 0 4px 6px}
+header input{display:block;width:270px;color:black;padding:10px 15px;font:16px 'Trebuchet MS';margin-bottom:5px;outline:none;border:none;margin-bottom:15px;}
 header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet MS";text-transform:uppercase;background:#2d2d2d;border:none;outline:none;cursor:pointer;}
 
 #welcome{background:url('img/fon2.jpg') center top no-repeat;color:white;height:845px;}
@@ -110,6 +105,13 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #sertificates{padding-bottom:25px;text-align:center}
 #sertificates figure{width:216px;padding:0 10px;display:inline-block;cursor:pointer}
 #sertificates figure figcaption{background:#f8bb24;height:35px;text-transform:uppercase;text-align:center;font:14px "Elektra Light Pro",Tahoma,'Kelson Sans Ru',"Georgia";margin-bottom:6px}
+
+#questions{background:white}
+#questions h2{text-align:left;font:37px "Trebuchet MS";text-transform:uppercase;color:#2d2d2d;padding-top:50px}
+#questions form{padding-bottom:40px}
+#questions form input{display:inline-block;width:200px;height:28px;padding:5px;color:#9fa4b0;font:16px "Trebuchet MS";outline:none;border:1px solid #ccc;margin:0 15px 25px 0}
+#questions form button{display:inline-block;position:relative;width:160px;height:36px;color:black;cursor:pointer;font:bold 16px "Trebuchet MS";text-transform:uppercase;background:#f4d31e;border-radius:3px;box-shadow:0 3px #d0b303;border:none;outline:none;cursor:pointer}
+#questions form button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
 
 #map{background:url('img/map.jpg') center top no-repeat;height:513px;}
 
