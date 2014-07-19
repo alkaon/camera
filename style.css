@@ -92,6 +92,16 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #reviews article div img{display:block;margin:0 auto 40px}
 #reviews .left   div{right:40px}
 #reviews .right div{left:40px}
+
+#license{background:url(img/fon6.jpg) no-repeat center top;height:940px}
+#license h2.black{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#f8bb24;padding-top:115px;margin-bottom:40px;}
+#license h2.black span{background:#2d2d2d;color:#ffffff}
+#license h3.black{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#f8bb24;padding:1px;margin:130px 0 45px 200px;}
+#license h3.black span{background:#2d2d2d;padding:0 10px;color:#ffffff}
+#sertificates{padding-bottom:25px;text-align:center}
+#sertificates figure{width:216px;padding:0 10px;display:inline-block;cursor:pointer}
+#sertificates figure figcaption{background:#f8bb24;height:35px;text-transform:uppercase;text-align:center;font:14px "Elektra Light Pro",Tahoma,'Kelson Sans Ru',"Georgia";margin-bottom:6px}
+
 #map{background:url('img/map.jpg') center top no-repeat;height:513px;}
 
 footer{color:white;background:url('img/fon7.jpg') center top no-repeat;height:331px;margin-bottom:48px}
