@@ -1,6 +1,7 @@
 @charset "utf-8";
 *{padding:0;margin:0}
 @font-face{font-family:"Kelson Sans RU Regular"; src:url(fonts/kelson_sans_regular_ru.ttf)}
+@font-face{font-family:"Kelson Sans RU Bold"; src:url(fonts/kelson_sans_bold_ru.ttf)}
 @font-face{font-family:"Uni Sans Heavy"; src:url(fonts/Uni_Sans_Heavy.ttf)}
 @font-face{font-family:"Uni Sans Thin"; src:url(fonts/Uni_Sans_Thin.ttf)}
 body{color:#000;background:#fff;font:16px "Trebuchet MS",Calibri,sans-serif;min-width:1001px}
@@ -103,7 +104,6 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #company .right ol{list-style:none;font:16px "Trebuchet MS";color:#2d2d2d;padding-left:20px;padding-top:35px}
 #company .right ol li{padding-bottom:15px}
 
-
 #reviews{position:relative;height:1000px}
 #reviews .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:0;right:50%;background:#f5f0ed}
 #reviews .right{float:none;display:block;position:absolute;top:0;bottom:0;right:0;left:50%;background:#00b3cb}
@@ -117,12 +117,35 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #reviews button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:bold 20px "Trebuchet MS";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
 #reviews button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
 
-#steps1{height:300px;background:white url(img/step1.png)no-repeat center 170px;}
+#steps1{background:#fff}
+#steps1 main{height:300px;background:white url(img/step1.png)no-repeat 104px 170px;}
 #steps1 h2{font:50px "Kelson Sans RU Regular";text-align:center;text-transform:uppercase;padding-top:65px;color:#f6662f}
-#steps2{height:350px;background:#f8f8f8 url(img/step2.png)no-repeat 148px 45px;}
+#steps2{background:#f8f8f8}
+#steps2 main{height:350px;background:#f8f8f8 url(img/step2.png)no-repeat 128px 45px;}
 #steps2 div.center{position:absolute;top:245px;left:0;right:0;text-align:center;}
 #steps2 button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:bold 20px "Trebuchet MS";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
 #steps2 button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
+
+#projects{background:white}
+#projects main{height:560px}
+#projects h2{padding-top:50px;font-family:"Kelson Sans RU Bold";text-align:center;font-weight:bold;color:black;font-size:45px;text-transform:uppercase}
+#projects h2 span{color:#d53329}
+#projects article{float:none;display:block;position:absolute;top:130px;bottom:0;text-align:left;padding:0 45px}
+#projects article.left{left:0;right:50%}
+#projects article.right{left:50%;right:0}
+
+#projects article div{margin-bottom:10px}
+#projects article div:before{font-weight:bold;}
+#projects article .client{font:17px "Trebuchet MS";color:#2d2d2d}
+#projects article .client:before{content:"Клиент: "}
+#projects article .problem{font-style:italic;font:13px "Trebuchet MS";color:#2d2d2d;margin-bottom:25px}
+#projects article .problem:before{content:"Задача: ";font-style:italic}
+#projects article .solution{min-height:100px;padding-left:110px;font:15px "Trebuchet MS";color:#2d2d2d;margin-bottom:30px}
+#projects article .solution:before{content:"Решение: ";}
+#projects article .solution img{float:left;margin-left:-110px}
+#projects article .result{color:#d53329}
+#projects article .result:before{content:"Результат"}
+#projects article .result ul{margin-left:110px;margin-top:-20px;list-style-image:url(img/ok.png)}
 
 #license{background:url(img/fon6.jpg) no-repeat center top;height:940px}
 #license h2{font:bold 40px "Trebuchet MS";text-transform:uppercase;color:#ffffff;padding-top:115px;margin-bottom:40px;}
