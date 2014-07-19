@@ -11,10 +11,13 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .show{display:block}
 .button{cursor:pointer}
 
+.black{background:black}
+.orange{color:#f8bb24}
+
 section{clear:both}
 main{margin:0 auto;width:960px;position:relative}
 
-header{background:url('img/fon.jpg') center top no-repeat;color:white;height:814px;}
+header{background:url('img/fon.jpg') center top no-repeat;color:white;height:889px;}
 header main{text-align:right;}
 header main.left{float:none;text-align:left;}
 header h2{font:bold 28px "Trebuchet MS";background-color:#2d2d2d;position:relative;width:auto;margin: 0 10px 0 0;padding: 0 10px;float:right;clear:both;}
