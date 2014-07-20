@@ -2,8 +2,8 @@
 *{padding:0;margin:0}
 @font-face{font-family:"Kelson Sans RU Regular"; src:url(fonts/kelson_sans_regular_ru.ttf)}
 @font-face{font-family:"Kelson Sans RU Bold"; src:url(fonts/kelson_sans_bold_ru.ttf)}
-@font-face{font-family:"Uni Sans Heavy"; src:url(fonts/Uni_Sans_Heavy.ttf)}
-@font-face{font-family:"Uni Sans Thin"; src:url(fonts/Uni_Sans_Thin.ttf)}
+@font-face{font-family:"UniSansHeavyCaps"; src:url(fonts/Uni_Sans_Heavy.otf)}
+@font-face{font-family:"UniSansThinCaps"; src:url(fonts/Uni_Sans_Thin.otf)}
 body{color:#000;background:#fff;font:16px "Trebuchet MS",Calibri,sans-serif;min-width:1001px}
 section,nav,footer,header{min-width:1001px}
 header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
@@ -21,7 +21,7 @@ section{clear:both}
 main{margin:0 auto;width:960px;position:relative}
 
 header{background:url('img/fon.jpg') center top no-repeat;color:white;height:889px;}
-#top{font-family:"Uni Sans Thin";font-size:20px;font-weight:normal;text-transform:uppercase;padding:35px 40px}
+#top{font-family:"UniSansThinCaps";font-size:20px;font-weight:normal;text-transform:uppercase;padding:35px 40px}
 header h1{font:bold 46px "Trebuchet MS";text-transform:uppercase;padding-left:40px}
 header main > p{font:22px/30px "Uni Sans Thin";padding:3px 0 0 40px;text-transform:uppercase}
 header main > p:nth-child(4) span{padding-right:28px}
@@ -42,9 +42,9 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 
 #reasons{background:white}
 #reasons main{padding:50px 0}
-#reasons h2{background:url(img/7.jpg)no-repeat top left;color:#2d2d2d;margin-left:100px;padding-top:95px; padding-left:195px;height:287px;font:30px "Uni Sans Thin","Segoe UI Light";text-transform:uppercase;}
+#reasons h2{background:url(img/7.jpg)no-repeat top left;color:#2d2d2d;margin-left:100px;padding-top:95px; padding-left:195px;height:287px;font:30px "UniSansThinCaps";text-transform:uppercase;}
 #reasons h2 span {font-size:50px}
-#reasons h2 strong {font:bold 35px "Uni Sans Heavy","Segoe UI";}
+#reasons h2 strong {font:35px "UniSansHeavyCaps";}
 #reasons ol {list-style:none;font:17px "Segoe UI Light";margin-left:130px}
 #reasons ol li{width:330px;padding-left:10px;position:relative;display:inline-block;margin-bottom:30px;margin-right:60px;counter-increment:list;}
 #reasons ol li:before{content:"0"counter(list);position:absolute;left:-25px;font:bold 25px "Trebuchet MS";color:#2d2d2d;}
